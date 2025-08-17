@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AplicacionesWebIiApplication {
 
 	public static void main(String[] args) {
+        System.out.println("Iniciando aplicacion");
 		SpringApplication.run(AplicacionesWebIiApplication.class, args);
 	}
 
